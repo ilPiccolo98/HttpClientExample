@@ -1,0 +1,15 @@
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\bin\Debug\net6.0\HttpClientNetworking.exe
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\bin\Debug\net6.0\HttpClientNetworking.deps.json
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\bin\Debug\net6.0\HttpClientNetworking.runtimeconfig.json
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\bin\Debug\net6.0\HttpClientNetworking.dll
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\bin\Debug\net6.0\ref\HttpClientNetworking.dll
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\bin\Debug\net6.0\HttpClientNetworking.pdb
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\obj\Debug\net6.0\HttpClientNetworking.csproj.AssemblyReference.cache
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\obj\Debug\net6.0\HttpClientNetworking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\obj\Debug\net6.0\HttpClientNetworking.AssemblyInfoInputs.cache
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\obj\Debug\net6.0\HttpClientNetworking.AssemblyInfo.cs
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\obj\Debug\net6.0\HttpClientNetworking.csproj.CoreCompileInputs.cache
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\obj\Debug\net6.0\HttpClientNetworking.dll
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\obj\Debug\net6.0\ref\HttpClientNetworking.dll
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\obj\Debug\net6.0\HttpClientNetworking.pdb
+C:\Users\it partner\Desktop\c#\HttpClientNetworking\HttpClientNetworking\obj\Debug\net6.0\HttpClientNetworking.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0ab0168e-8daf-4dcf-9218-c62e4f41f77b": {
+      "ProjectGuid": "0ab0168e-8daf-4dcf-9218-c62e4f41f77b",
+      "DisplayName": "HttpClientNetworking",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

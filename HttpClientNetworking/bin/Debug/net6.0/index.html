@@ -1,0 +1,1363 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' matomo.16bpp.net cdn.jsdelivr.net gist.github.com platform.twitter.com cdn.syndication.twimg.com pagead2.googlesyndication.com adservice.google.com www.googletagservices.com;" />
+  <title>16BPP.net: Blog / Page 1</title>
+  <link rel="icon" href="https://storage.googleapis.com/sixteenbpp/images/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  
+    <link rel="stylesheet" href="/static/styles/main.css" />
+  
+    <link rel="stylesheet" href="/static/styles/blog.css" />
+  
+
+  
+    <style>.special-note {
+      background: #FFFBF2;
+      padding: .5em;
+      margin-left: 4em;
+      border: .1em solid #E86A0B;
+      border-radius: .25em
+    }
+
+.special-note {
+  background: #FFFBF2;
+  padding: 0.5em;
+  margin-left: 4em;
+  border: 0.1em solid #E86A0B;
+  border-radius: 0.25em;
+}
+
+
+
+
+
+</style>
+  
+
+  
+    <script src="/static/scripts/main.js"></script>
+  
+
+  
+    <script>
+
+
+
+
+
+
+
+</script>
+  
+
+  <!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDoNotTrack", true]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.16bpp.net/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+</head>
+
+<body>
+  <a id="top"></a>
+  
+
+
+  <div class="container">
+    <!-- Header image -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="/"><img class="site-logo" src="https://storage.googleapis.com/sixteenbpp/images/logo.png" width="512" height="192" alt="16BPP.net" /></a>
+      </div>
+    </div>
+
+    <div class="row justify-content-start">
+      <!-- Navigation links (left sidebar)-->
+      <div class="col-lg-3">
+
+        <nav class="navigation-links-box">
+          <!-- Nav collapse button, visible only when content is a single column -->
+          <div class="d-lg-none text-end">
+            <button class="btn-sm navigation-collapse-button" type="button" data-bs-toggle="collapse" data-bs-target="#navigation-collapsable-area">
+              <img id="nav-collapse-icon" src="https://storage.googleapis.com/sixteenbpp/images/icons/menu_open.svg" alt="" width="24" height="24">
+            </button>
+          </div>
+
+          <!-- the actual content of the navgiation block -->
+          <div id="navigation-collapsable-area" class="collapse d-lg-block navigation-links"><div class="section-header">Navigation:</div>
+<ul>
+  <li><a href="https://16bpp.net/">Main/Blog</a></li>
+  <li><a href="https://16bpp.net/niben">日本語ベン強<span class="small-note">毎日日本語練習ブログ</span></a></li>
+  <li>
+    <a href="https://16bpp.net/tutorials">Tutorials</a>
+    <ul>
+      <li><a href="https://16bpp.net/tutorials/csharp-networking">C# Networking & Sockets</a></li>
+    </ul>
+  </li>
+  <li><a href="https://16bpp.net/contact">Contact</a></li>
+</ul>
+
+<div class="section-header">Games:</div>
+<ul>
+  <li><a href="https://16bpp.net/games/pucker-godot-edition-2020">Pucker Up (Godot Edition, 2020)</a></li>
+</ul>
+
+<div class="section-header">Big Projects:</div>
+<ul>
+  <li><a href="https://16bpp.net/blog/post/psraytracing-a-revisit-of-the-peter-shirley-minibooks-4-years-later/">PSRayTracing</a><span class="small-note">[new]</span></li>
+  <li><a href="https://16bpp.net/blog/post/ray-tracing-book-series-review-nim-first-impressions">A Ray Tracer in Nim</a></li>
+  <li><a href="https://16bpp.net/blog/post/blit-a-retrospective-on-my-largest-project-ever">Blit (Spriting/Animation Tool)</a></li>
+  <li><a href="https://16bpp.net/blog/post/masala-a-chaiscript-game-engine">Masala (ChaiScript Game Engine)</a></li>
+  <li><a href="https://16bpp.net/blog/post/mega_matrix">MEGA_MATRIX (LED Display)</a></li>
+  <li><a href="https://16bpp.net/blog/post/c8-my-new-chip-8-emulator">c8 (CHIP-8 Emulator)</a></li>
+</ul>
+
+
+<div class="section-header">Small Projects:</div>
+<ul>
+  <li><a href="https://gitlab.com/define-private-public/Bassoon">Bassoon: cross platfrom audio playback for C#/.NET Core</a></li>
+  <li><a href="https://16bpp.net/blog/post/html5-canvas-bindings-for-nims-javascript-target">HTML5 Canvas Drawing for Nim's JavaScript Target</a></li>
+  <li><a href="https://16bpp.net/blog/post/random-art-in-nim">Random Art in Nim</a></li>
+  <li><a href="https://16bpp.net/blog/post/stb_image-wrapper-for-nim">stb_image for Nim</a></li>
+  <li><a href="https://16bpp.net/blog/post/a-stopwatch-for-nim">Nim Stopwatch</a></li>
+  <li><a href="https://16bpp.net/blog/post/a-kicad-footprint-scaler">KiCAD Footprint Scaler</a></li>
+  <li><a href="https://16bpp.net/blog/post/timelapse_test">timelapse_test (timelapse capture)</a></li>
+</ul>
+
+
+<div class="section-header">Toys:</div>
+<ul>
+  <li><a href="https://16bpp.net/page/random-art-in-webgl/">Random Art in WebGL</a></li>
+  <li><a href="https://16bpp.net/page/monotone-polygon-triangulation">Polygon Triangulation</a></li>
+</ul>
+
+
+<div class="section-header">Art n' Stuff:</div>
+<ul>
+  <li><a href="https://16bpp.net/blog/post/some-of-my-early-animations">First Animations</a></li>
+  <li><a href="https://16bpp.net/page/how-random-art-works">How Random Art Works</a></li>
+</ul>
+
+
+<div class="section-header">Other Things:</div>
+<ul>
+  <li><a href="https://twitter.com/DefPriPub">My Twitter (@DefPriPub)</a></li>
+  <li><a href="https://gitlab.com/define-private-public">GitLab Page</a></li>
+  <li><a href="https://github.com/define-private-public">GitHub Page</a></li>
+  <li><a href="https://vimeo.com/bensummerton">Vimeo Page</a></li>
+</ul>
+</div>
+        </nav>
+
+      </div>
+
+      <!-- Content Area -->
+      <div class="col-lg-9">
+        <article class="content">
+          
+
+          
+
+<div class="blog-entry">
+  <div class="blog-entry-date">Thu Jul 8th, 2021 – 09:40 AM EST
+</div>
+  <div class="blog-entry-title"><a href="https://16bpp.net/blog/post/automated-testing-of-a-ray-tracer">Automated Testing of a Ray Tracer</a></div>
+  <div class="blog-entry-body"><p>Every single time I want to consider myself done with the <a href="https://16bpp.net/blog/post/psraytracing-a-revisit-of-the-peter-shirley-minibooks-4-years-later/">PSRayTracing</a> project, I find myself running back to it for something.&nbsp; Recently I’d like to start contributing to another ray tracer that was also based on the same books, so I asked the main developer if he had any testing infrastructure up.&nbsp; Other than some sample files, He really didn't.</p>
+              <p>So as to set a good example, adding some automated tests to PSRayTracing would be best!&nbsp; Before we begin, I want to note that testing software is a very broad topic, with all sorts of opinions flying around: test driven development, "<i>Write tests, not to many. Mostly integration</i>", behavior driven testing, achieve 117.3% coverage via unit tests only, etc.&nbsp; In this blog post, I want to show you how I did it for mine.&nbsp; The testing code is approximately 300 lines long.&nbsp; I try to break down each important part into bite size chunks, though things will be omitted for the sake of brevity.&nbsp; <a href="https://github.com/define-private-public/PSRayTracing/blob/53981b475892ea32c36942d3e278e19f6a7075f4/run_verification_tests.py">If you want to go and see the whole script, it’s available here.</a></p>
+              <p>I want to also note that the testing principles and techniques outlined here aren’t only for ray tracers.&nbsp; They can apply to more real time systems and just about anything under the sun of graphics programming.&nbsp; Please read this as a general guide on the topic, but not the end-all-be-all for the subject.</p>
+              <hr>
+              <br>
+              <h2>Methods of Testing</h2>
+              <p>As mentioned before, testing can be a very hot topic.</p>
+              <br>
+              <h3>Unit Testing vs. Integration Testing (for a Ray Tracer)</h3>
+              <p>Two of the major camps in automated software testing are Unit Tests and Integration Tests.&nbsp; In a nutshell, unit tests are meant to be tests for small portions of code (e.g. a single math function) that can be run quickly (e.g 1 millisecond), and there should be a lot of them. Integration Tests on the other hand are meant to test a much larger chunk of code, and that all the smaller bits when added up together work as intended (e.g. a system that scans a directory for images and generates smaller proxy files). These tend to run much longer, definitely in the realms of seconds and quite possibly minutes.</p>
+              <p>Integration tests are my personally preferred method since it lets you look at the sum of the parts, getting a much bigger picture. It is also better for any larger existing projects that you might have inherited.&nbsp; You might not know how a small portion of the codebase is supposed to work, but you know what the expected output is supposed to be.&nbsp; Integration testing shines for that.&nbsp; Unit testing still has its place, as they can help pinpoint better where a regression happens.&nbsp; So for PSRayTracing, I'd think it would be best to go with integration testing as the primary method.</p>
+              <p class="special-note">You could also set up a project where integration tests are your main source of testing, but as you add new functions, you add tiny unit tests for those.&nbsp; Whenever a bug might be found and fixed for existing code, you then add up a unit test for that case as well.&nbsp; That way you can have the best of both worlds.&nbsp; There are many times at jobs where I thought writing integration tests would be more robust, but other times I kept on running back to the same function to fix some minute detail.</p>
+              <br>
+              <h3>What Exactly Can We Test?</h3>
+              <p>This should be obvious; the generated renders from PSRayTracing.&nbsp; This is simple enough as looking at some inputs (on the command line) and marking sure we have the same output. Another topic to look at is performance testing too.&nbsp; While functionality/reproducibility comes first, performance is another very important aspect. <a href="https://www.animationmagazine.net/features/disney-ice/">Back in 2013, some of the scenes in Disney's Frozen took upwards of 30 hours to render a single frame</a>! If you're making any change, it's very worthwhile to see the impact of that change on the render time.&nbsp; Good performance is a feature you don't want to break.</p>
+              <br>
+              <h2>idiff (à la OpenImageIO)</h2>
+              <p>The main workhorse of the testing program is going to be <code><a href="https://openimageio.readthedocs.io/en/latest/idiff.html">idiff</a></code>.&nbsp; Given two images, it can tell us if they differ and by how much.&nbsp; PSRayTracing is supposed to be 100% fully deterministic, meaning that given a specific set of inputs, we should always have the same output no matter how many times the application is run.&nbsp; Down to the noise artifacts generated it should render the same!&nbsp; <code>idiff</code>'s pixel perfect requirements help with this.&nbsp; While we could always write our own code that checks two images, it's much better (and easier) to use the work someone else has done for us. If your OS is anything from the Debian/Ubuntu family, you can easily get this utility from APT via the <code><a href="https://packages.debian.org/buster/openimageio-tools">openimageio-tools</a></code> package.</p>
+              <p>Take for example these two renders of the earth. The first one uses actual trig functions to paste the texture on the sphere, whereas the second uses faster trig. approximations.</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <figure>
+                    <a href="https://storage.googleapis.com/sixteenbpp/blog/images/automated-testing-of-a-ray-tracer/asin_ground_truth.png"><img src="https://storage.googleapis.com/sixteenbpp/blog/images/automated-testing-of-a-ray-tracer/asin_ground_truth.png" alt=""></a>
+                    <figcaption>Ground truth; using real trig. functions.</figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-6">
+                  <figure>
+                    <a href="https://storage.googleapis.com/sixteenbpp/blog/images/automated-testing-of-a-ray-tracer/asin_approx_with_ec.png"><img src="https://storage.googleapis.com/sixteenbpp/blog/images/automated-testing-of-a-ray-tracer/asin_approx_with_ec.png" alt=""></a>
+                    <figcaption>Faster, but acutely incorrect; using trig. approximations (with some error correction).</figcaption>
+                  </figure>
+                </div>
+              </div>
+              <p>If you're having some trouble trying to find the differences, look around the UK. The latitude line is slightly shifted.&nbsp; If you load up the images in two separate tabs and then quickly swap between them, you might be able to spot the difference more easily.</p>
+              <p>With <code>idiff</code>, here is how you check for equality:</p><pre>$ # An example of a passing case:
+$ idiff asin_ground_truth.png asin_ground_truth_copy.png 
+Comparing "asin_ground_truth.png" and "asin_ground_truth_copy.png"
+PASS
+$ echo $?
+0
+
+$ # An example of failure:
+$ idiff asin_ground_truth.png asin_approx_with_ec.png 
+Comparing "asin_ground_truth.png" and "asin_approx_with_ec.png"
+  Mean error = 0.000346436
+  RMS error = 0.00412951
+  Peak SNR = 47.682
+  Max error  = 0.552941 @ (548, 408, B)  values are 0.403922, 0.521569, 0.145098, 1 vs 0.192157, 0.52549, 0.698039, 1
+  46169 pixels (4.4%) over 1e-06
+  46169 pixels (4.4%) over 1e-06
+FAILURE
+$ echo $?
+2
+</pre>
+              <p>It gives us a nice standard return code of <code>0</code> for pass and a non-zero for failure, and even goes into some detail. It can even produce show you were your images were different, if you pass in <code>-abs -o &lt;filename&gt;.jpg</code> into the command. (<i>Note: I recommend creating a JPEG image, it's really hard to see on a PNG</i>)</p><pre>idiff -abs -o diff.jpg asin_ground_truth.png asin_approx_with_ec.png</pre>
+              <div class="row">
+                <div class="col-md-6">
+                  <figure>
+                    <a href="https://storage.googleapis.com/sixteenbpp/blog/images/automated-testing-of-a-ray-tracer/diff.jpg"><img src="https://storage.googleapis.com/sixteenbpp/blog/images/automated-testing-of-a-ray-tracer/diff.jpg" alt=""></a>
+                    <figcaption>diff.jpg generated by the above command. If you look slightly above the center, you may see something.</figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-6">
+                  <figure>
+                    <a href="https://storage.googleapis.com/sixteenbpp/blog/images/automated-testing-of-a-ray-tracer/diff-enhanced.jpg"><img src="https://storage.googleapis.com/sixteenbpp/blog/images/automated-testing-of-a-ray-tracer/diff-enhanced.jpg" alt=""></a>
+                    <figcaption>An enhanced version of the first image, better showing the different pixels.</figcaption>
+                  </figure>
+                </div>
+              </div>
+              <p class="special-note">As stated before <code>idiff</code> checks that images are pixel perfect. You might argue that the above two globe renders are the same image, or are <em>practically the same</em>. That's because they are very "perceptually similar". There's another tool available called <a href="http://pdiff.sourceforge.net/">Perceptual Image Diff</a> which acts a lot like <code>idiff</code>, but also factors in parts of the human visual system to test how perceptually similar two images are. There's a lot of science in regards to human visual system and psychology that plays into this. If you're interested in this, read up on <a href="https://en.wikipedia.org/wiki/Color_vision">Color Science and related topics</a>. It's a truly fascinating subject, but this is all beyond the scope of this document. If you're really interested in computer graphics, it's very worth looking into this subject as well since it's very beneficial for the field of computer graphics (e.g.<a href="https://ieeexplore.ieee.org/document/4381162">it's how JEPG works</a>).</p>
+              <br>
+              <h2>Testing PSRayTracing</h2>
+              <p>While it's going to be <code>idiff</code> doing all of the heavy lifting, a small vanilla Python script (approx ~300 lines) that will be running the show. Before we write that, we need to do a little infrastructure work.&nbsp; One important note is that project uses CMake for the build, and it assumes you've named the main build folder as <code>build</code>, and it's in the root of the repo; a fairly standard practice. How to do this is outlined in the <a href="https://github.com/define-private-public/PSRayTracing#how-to-build">repo's README right here</a>.</p>
+              <br>
+              <h3>Adding a "Testing Mode" to PSRayTracing</h3>
+              <p>We're going to be relying on the command line output from PSRayTracing for our testing script. If you were to simply run the program and watch the console, something like this should appear on screen:</p><pre>Scene: book2::final_scene
+Render size: 960x540
+Samples per pixel: 10
+Max number of ray bounces: 50
+Number of render threads: 1
+  Copy per thread: on
+Saving to: render.png
+Seed: `ASDF`
+Rendering: [=============&gt;                                    ]  27% 5s</pre>
+              <p>While this is very handy for someone waiting for a render (e.g. they see info and are given an updating progress bar), for testing this is a lot more noise than we need. A "testing mode" needs to be added in. The only things we care about during testing are:</p>
+              <ul>
+                <li>The render was completed without any program failures</li>
+                <li>How long the render took</li>
+              </ul>
+              <p>The code changes required are very simple:</p>
+              <ol>
+                <li>Add in a command line flag <code>--testing-mode</code></li>
+                <li>Suppress any normal text output if this flag is set to <code>true</code></li>
+                <li>Upon render completion, print out the total time, as nanoseconds</li>
+              </ol>
+              <p>If you want to see the changes, <a href="https://github.com/define-private-public/PSRayTracing/commit/3157268a2edb3f8eb67f93cd69fc4ca5399a48f4">you can read the commit diff right here</a>. It's only about 20 lines in the <code>main()</code> function with some if checks. This being one of the more important parts:</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=main.cpp.diff"></script>
+              <p>This simple change now lets us do performance metering!</p>
+              <br>
+              <h3>Generating Test Data and Test Cases</h3>
+              <p>Aside from performance, figuring out what we can test for correctness is the next on the agenda. As stated before, Python will be used for the testing script. Writing automation code in needed and Python really stands out in this respect; it's our knight in shining amour.</p>
+              <br>
+              <h4>Looking at the Parameters of PSRayTracing</h4>
+              <p>Supplying <code>--help</code> to the program gives us a list of all the things that can be configured, most of them being options that effect the render. They can be further divided into two categories: <span style="color:#63f">those that can change the output</span>, and <span style="color:#060">those that shouldn't but can alter performance</span>.</p><pre>$ ./PSRayTracing --help
+Options:
+  -h [ --help ]                         Help screen (this message)
+  --list-scenes                         List all of the available scenes to 
+                                        render
+  --scene arg (=book2::final_scene)     Scene to render
+  -s [ --size ] arg (=960x540)          Render size
+  -n [ --num-samples ] arg (=10)        Samples per pixel
+  -j [ --num-threads ] arg (=1)         How many threads to render with
+  -d [ --depth ] arg (=50)              Maximum ray bounce depth
+  -r [ --random-seed ] arg (=ASDF)      Seed string for the RNG
+  -o [ --output-filename ] arg (=render.png)
+                                        Filename to save render to (PNG only)
+  --no-progress-bar                     Don't show the progress bar when 
+                                        rendering
+  --no-copy-per-thread                  Don't make a copy of scene per thread
+  --testing-mode                        Run in testing mode; only outputs how 
+                                        long render time took</pre>
+              <p><span style="color:#63f">What changes the output:</span>
+              </p>
+              <ul>
+                <li><code>--scene</code>, This is simply what picture will be rendered.
+                  <ul>
+                    <li>I want to note that normally a ray tracer would allow you to specify a scene as a file that can be loaded at runtime. But that wasn't in the original book code. This feature would take a while to implement. So instead I opted to keep the hard-coded scenes.</li>
+                  </ul>
+                </li>
+                <li><code>--size</code>, The dimensions of the picture.</li>
+                <li><code>--num-samples</code>, How many samples to take per pixel. The larger the higher the quality (but also the longer the render time).</li>
+                <li><code>--depth</code>, How many times should a light Ray bounce. Bounce too much and renders can take forever. Bounce too little and colours may not look correct.</li>
+                <li><code>--random-seed</code>, A string which seeds the random number generator. This effects the noise of the image.</li>
+              </ul>
+              <p><span style="color:#060">What doesn't change output:</span>
+              </p>
+              <ul>
+                <li><code>--num-threads</code>, Regardless if we render with one thread or eight, the resulting image should still be the same, even down to the grain of the noise. Changing this value should only effect render performance.</li>
+                <li><code>--no-copy-per-thread</code>, I noticed if each thread had its own copy of the scene graph, rendering would be <strong><em>much</em></strong> faster. If you want to read more about this, <a href="https://github.com/define-private-public/PSRayTracing#deep-copy-per-thread">check out the section in the project's README</a>.</li>
+              </ul>
+              <br>
+              <h4>Making Combinations of Arguments</h4>
+              <p>Looking as the possible arguments, the range of possible inputs is infinite. For simplicity sake, let's pick some. This is left at the top of the file for ease of adding new options later on, or tweaking them.</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=run_verification_tests.config.py"></script>
+              <p>You might notice that I haven't specified any scenes, but if you remember PSRayTracing has a another flag <code>--list-scenes</code>. This well, lists all of the possible scenes. We can use Python's <code><a href="https://docs.python.org/3/library/subprocess.html#subprocess.check_output">check_output()</a></code> to run in this mode and grab the list.</p><pre>$ ./PSRayTracing --list-scenes
+Available Scenes:
+  book1::surface_normal_sphere
+  book1::grey_sphere
+  book1::shiny_metal_sphere
+  book1::fuzzy_metal_sphere
+  book1::two_glass_one_metal_spheres
+  ...</pre>
+              <p>In total, there's 35 of them.</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=run_verification_tests.generate_test_cases.1.py"></script>
+              <p>The other benefit of this too is since is scans our application for scenes, if we add any new ones, we don't need to update the testing script per se. The <code>master</code> branch of this project contains scenes from books 1 &amp; 2. Where as a separate branch <code>book3</code> exists for that respective book's scenes (since then rendering logic is radically different in the final book). Now that we've collected a series of inputs for all of the rendering arguments, we can leverage the <code><a href="https://docs.python.org/3/library/itertools.html#itertools.product">itertools.product()</a></code> function. Given a list of lists/tuples (of varying size), it will then produce each possible <a href="https://www.mathsisfun.com/combinatorics/combinations-permutations.html">combination</a>.</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=run_verification_tests.generate_test_cases.2.py"></script>
+              <p>Really astute readers might notice that we've gone and generated <code>35 x 3 x 2 x 3 x 3 x 3 x 3</code> possible combinations of arguments. My calculator says that computes to <code>17010</code> options. Now, if all of our these possibilities were to render in about 1 second it would take around 5 hours for that. But in reality, each render is anywhere between 1 to 120 seconds long on my computer. To run a full suite, we'd be here for days; if not weeks. So here it would actually be best to take a sub-sample of those possible options and then use those. <code>generate_test_cases()</code> has a parameter <code>tests_per_scene</code> (default being <code>10</code>). It's simply an integer where we can specify how many different tests we want to run per scene.</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=run_verification_tests.generate_test_cases.3.py"></script>
+              <p>Lastly to finish up, give each test case its own unique number and then save each one as an entry in a CSV file; which will be read back in during actual testing.</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=run_verification_tests.generate_test_cases.4.py"></script>
+              <p>Now with this, we have a set of test cases that we can run, all with different options to feed to the program. We can refer to this as our "reference testing list".&nbsp; Later on, we'll do a "reference run", which will well, serve as our reference to test against when code changes are made. This generated CSV file is something we'll actually want to commit to our code base, as the common set of tests to use. I wouldn't recommend committing the renders themselves since it could make the repo a bit more hefty than it needs to be.&nbsp; It's much easier to pass around a single CSV file that's only 50 KB, versus hundreds of renders that can total 100 MB (or more).</p>
+              <br>
+              <h3>Running the Test Cases</h3>
+              <p>Before we get into the meat of the code that will run the test cases we'll need to construct three helper functions first.&nbsp; To start off, we need to write the function that will actually run <code>idiff</code> against two images.&nbsp; Leveraging <code>check_output()</code> again, it's quite simple:</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=run_verification_tests.test_images_match.py"></script>
+              <p>If you remember from far above, I did mention that there are <span style="color:#060">program options that shouldn't change the output</span>. This is yet another thing that we should test: "<i>different cases that should produce the same render</i>".&nbsp; The final two functions will tell us if some test cases should produce the same pixel-for-pixel picture.</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=run_verification_tests.find_matching_renders.py"></script>
+              <p>With that out of the way, let's start on <code>run_test_cases()</code>, that aforementioned "meat".&nbsp; It's a tad bit big, so I'm going to break it down a little into multiple sections.&nbsp; This function will take in the CSV file we made earlier, and then as the name implies, run the cases.&nbsp; Since we also need to first generate a "reference run" (for later code changes to be tested against), this function will also need to take in another parameter to know if we're rendering the references, or actually testing against them.</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=run_verification_tests.run_test_cases.1.py"></script>
+              <p>At the bottom of the snippet you'll notice that we also make a second CSV file.&nbsp; While we will print out the results of each case to the terminal, we also should save them to another other place where they can be retrieved later.&nbsp; It mostly follows the same format as CSV we read in, except that we add on two extra fields.&nbsp; "How long the render took" and "did it match the reference?"</p>
+              <div class="special-note">You'll probably also take note that we've copied over the <code>CMakeCache.txt</code> file from the <code>build/</code> folder.&nbsp; If you're wondering why this might be helpful, it's possible that how the software was built can impact performance.&nbsp; E.g. if the reference test was built against GCC, but when doing later development you use Clang, you're going to see some differences in performance.&nbsp; One could simply run <code>diff</code> on the two <code>CMakeCache.txt</code> files and see what was different in the builds.</div>
+              <p>With the test cases read in, we can actually now run them through the executable.&nbsp; Once again <code>check_output()</code> is being used, but this time, with also passing in the <code>--testing-mode</code> flag to the ray tracer.</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=run_verification_tests.run_test_cases.2a.py"></script>
+              <p>When we're doing a real test run, we'll also need to check if the produced render matches the reference.&nbsp; For that, we'll use the <code>test_images_match()</code> function we built above:</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=run_verification_tests.run_test_cases.2b.py"></script>
+              <p>And at the end of that, we'll just want to print out (and save) some of the metrics from the case:</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=run_verification_tests.run_test_cases.2c.py"></script>
+              <p>That should be the end of our main loop where we run all of the test cases; it will take a while.</p>
+              <p>Right after it, we need to verify those <span style="color:#060">test cases with different arguments but the same output</span>.&nbsp; We've already figured out which cases are supposed to have matching renders.&nbsp; We'll use that data and verify the results:</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=run_verification_tests.run_test_cases.3.py"></script>
+              <p>And finally, one more metrics info block.&nbsp; But this time it's a summary of all of the tests:</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=run_verification_tests.run_test_cases.4.py"></script>
+              <p>One of the more important metrics here for the user is the total time it took to complete all of the renders.&nbsp; It runs off of a simple accumulator (measure all of the nano seconds it took).&nbsp; Sometimes we can have code changes (e.g. micro optimizations) that are so small to see individually, and we'll need to verify inductively by rendering a lot of tests over a very long time.</p>
+              <p>This completes the <code>run_test_cases()</code> function.&nbsp; The last thing that needs to be done is adding in a <code>main()</code> function.</p>
+              <br>
+              <h4>Finishing Up the Testing Script</h4>
+              <p></p>
+              <p>There are three different ways that this script can be used:</p>
+              <ol>
+                <li>Generate test cases</li>
+                <li>Do a "reference test" run</li>
+                <li>Do an actual test run</li>
+              </ol>
+              <p>Generating the test cases will be something that will happen very rarely along with doing "reference test" runs.&nbsp; For those, we'll hide them behind some flags.&nbsp; <code>-g</code> for generating test cases.&nbsp; And <code>-r</code> for doing the reference run; we'll also have <code>-r</code> generate test cases if there is no CSV file found.</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=run_verification_tests.main.py"></script>
+              <p>You'll also notice that there is a <code>-n</code> argument too This is so we can specify how make test cases to generate per scene. When I did my first reference run, it took about 50 minutes to render every test case!&nbsp; I thought that was <i><b>WAY</b></i> too much.&nbsp; After, I entered in a lower value for <code>-n</code> to find a sweet spot where I got enough tests, but also doesn't take too long.</p>
+              <br>
+              <h3>Doing a Reference Run</h3>
+              <p>The script is now complete.&nbsp; It's time now to do a reference run.&nbsp; With the script saved to the root of the repo, simply do: <code>python run_verification_tests.py -r</code> in a terminal.&nbsp; If everything was run, you should see something like this:</p><pre>Wrote 350 test cases to `test_cases.csv`
+Running 350 test cases:
+  Test 001/350: [0.204 s]
+  Test 002/350: [0.206 s]
+  Test 003/350: [0.305 s]
+...
+  Test 349/350: [0.910 s]
+  Test 350/350: [2.110 s]
+
+Verifying cases where renders should be the same:
+  test_cases.csv_refernence_renders/059.png -- test_cases.csv_refernence_renders/079.png : PASS
+  test_cases.csv_refernence_renders/065.png -- test_cases.csv_refernence_renders/068.png : PASS
+...
+  test_cases.csv_refernence_renders/288.png -- test_cases.csv_refernence_renders/290.png : PASS
+  test_cases.csv_refernence_renders/311.png -- test_cases.csv_refernence_renders/319.png : PASS
+
+Total render time was 730.408 s
+</pre>
+              <p>On my beefier machine this took about 12 minutes to complete, which I think is fairly acceptable. With 350 cases to test for correctness (including render time) and some cases with matching output to verify, I think this is good&nbsp; To prove that this testing works, let's intentionally break the ray tracer!</p>
+              <br>
+              <h3>Doing a Real Test</h3>
+              <p>Step 1:&nbsp; Mess with the RNG.&nbsp; Edit the <code>main.cpp</code>, where <code>seed_str</code> is set.&nbsp; Put this extra fun bonus in there:</p>
+              <script src="https://gist.github.com/define-private-public/d4c1398cb20c60acdf649dd236d90a89.js?file=main_bad_rng.cpp.diff"></script>
+              <p>Step 2: Re-build the ray tracer. Step 3: Run the testing script without any flags: <code>python run_verification_tests.py</code></p><pre>Running 350 test cases:
+  Test 001/350: FAIL [0.204 s]
+  Test 002/350: FAIL [0.201 s]
+  Test 003/350: FAIL [0.307 s]
+...
+  Test 349/350: PASS [0.907 s]
+  Test 350/350: PASS [2.108 s]
+
+Verifying cases where renders should be the same:
+  test_cases.csv_renders/059.png -- test_cases.csv_renders/079.png : PASS
+  test_cases.csv_renders/065.png -- test_cases.csv_renders/068.png : FAIL
+...a
+  test_cases.csv_renders/288.png -- test_cases.csv_renders/290.png : FAIL
+  test_cases.csv_renders/311.png -- test_cases.csv_renders/319.png : PASS
+
+Total render time was 720.795 s
+</pre>
+              <p>If everything was <i>"successful"</i> (sort to speak), the tests should fail about half the time.&nbsp; You can also check the <code>results.txt</code> file that's saved in the <code>test_cases.csv_renders/</code> folder for another summary:</p><pre>169/350 tests passed
+Total render time was 720.795 s (or 720794676060 ns)
+Verifying cases where renders should be the same:
+  test_cases.csv_renders/059.png -- test_cases.csv_renders/079.png : PASS
+  test_cases.csv_renders/065.png -- test_cases.csv_renders/068.png : FAIL
+  test_cases.csv_renders/107.png -- test_cases.csv_renders/109.png : FAIL
+...
+</pre>
+              <p>Loading up the <code>results.csv</code> file into your favorite spreadsheet software; you should see a nice table summary too:</p><img src="https://storage.googleapis.com/sixteenbpp/blog/images/automated-testing-of-a-ray-tracer/results_csv.png" alt="" width="1064" height="213">
+              <p>If you want to get even more fancy, you could take the <code>results.csv</code> from the reference renders folder, then compare the render times case-for-case.&nbsp; But that's beyond the scope of this article.&nbsp; I think the "total render time" metric suffices.</p>
+              <br>
+              <h2>Moving Forward</h2>
+              <p>There's more that we could do, but what we have done right now (in only a little bit of Python and with <code>idiff</code>) has provided a great framework for verifying the ray tracer works as intended. There are some things that could be improved or features added:</p>
+              <ul>
+                <li>Running tests in parallel.&nbsp; For example, my main workhorse has 12 cores, but at most any of the test cases we generated only uses 4 cores.&nbsp; This testing script could be a bit smarter and could queue up multiple renders at the same time.
+                  <ul>
+                    <li>Though, this might cause the render time to not be as accurate (e.g. it could take longer). A solution to this could be to add a mode to do a "correctness only" run where it disregards the render time and only checks pixel-for-pixel accuracy.&nbsp; Then another mode could be added in to verify the performance of renders, by only running one test at a time.</li>
+                  </ul>
+                </li>
+                <li>The script could also gather system information about the computer that the tests were running on.&nbsp; If the suite was run on an Intel Celron processor vs. an AMD Threadripper you're going to see some dramatic differences in performance.&nbsp; This information could be put in <code>results.txt</code> or some other text file.</li>
+                <li>By having no reference images committed into the repo and not being tested against, this suite does assume that renders are 100% fully deterministic between different computers. I think it's very unlikely that an error like this could happen.</li>
+                <li>Integration of a tool that could check for perceptual difference would also be a nice feature.&nbsp; When we broke the ray tracer above, all that was effected was the "visual fuzz" of the image since the rays being shot were given different random offsets. When doing a pixel-for-pixel test, this would fail.&nbsp; But humans wouldn't be able to tell the difference between the images for such a subtle difference.
+                  <ul>
+                    <li><code>idiff</code>'s ability to produce an image showing the differences could be used too.&nbsp; If you remember from the globe example, the "diffed pixels" were actually quite faint.&nbsp; If they appeared more vividly, we could consider that a noticeable/perceptual difference.</li>
+                  </ul>
+                </li>
+              </ul>
+              <p>I hope that this walkthrough provided you with a good insight on how to add some level of testing to your graphics application. It's a topic that I don't seem much written about, but is fairly important.</p>
+              <hr>
+              <br>
+              <p>I'd also like to note, that I am currently looking for work. If anyone is interested in hiring me, please check out <a href="https://16bpp.net/page/contact/">my contact page</a> (<a href="https://twitter.com/DefPriPub">or Twitter</a>) to get in touch with me. I do all sorts of things.</p><div class="tags">Tags: <a href="https://16bpp.net/blog/tag/computer-graphics">Computer Graphics</a>, <a href="https://16bpp.net/blog/tag/c-cplusplus">C/C++</a>, <a href="https://16bpp.net/blog/tag/python">Python</a>, <a href="https://16bpp.net/blog/tag/ray-tracing">Ray Tracing</a></div></div>
+</div>
+
+
+<div class="blog-entry-spacer"></div>
+
+<div class="blog-entry">
+  <div class="blog-entry-date">Mon Feb 22nd, 2021 – 09:21 AM EST
+</div>
+  <div class="blog-entry-title"><a href="https://16bpp.net/blog/post/psraytracing-a-revisit-of-the-peter-shirley-minibooks-4-years-later">PSRayTracing, A revisit of the Peter Shirley Minibooks 4 years later</a></div>
+  <div class="blog-entry-body"><p>
+  Note: If you want to look at this project's code, as well as the REAMDE which details the optimizations,
+  <a href="https://github.com/define-private-public/PSRayTracing">you can find that here</a>.  This blog post
+  moreso covers the process that I went through while working on this project.  You could think of this as a
+  post-mortem report, but I view it also as a guide for how to get more out of your CPU from your C++ program.
+</p>
+
+<p>
+  Extra thanks to Mr. Shriley for giving this post a proof read.
+</p>
+
+<hr>
+
+<br>
+<p>
+  Right when I was fresh out of college, I was in the depth of my &quot;Nim binge&quot;.  I was looking to try a second
+  attempt at writing a ray tracer after my so-so attempt back in a Global Illumination class.  After a quick search on
+  Amazon for &quot;ray tracing&quot; I found the Peter Shirley &quot;Ray Tracing in one Weekend&quot;, &quot;... The Next
+  Week&quot;, and &quot;... The Rest of your Life&quot; mini books.  At $3 a pop I thought it was a fair thing to take a
+  look at.  As an exercise to better learn the Nim language, I went through these books but used Nim instead of C++.
+  Looking back at <a href="https://16bpp.net/blog/post/ray-tracing-book-series-review-nim-first-impressions/">my first
+  review of the book series</a>, I feel as if I sounded a little harsh, but I really did have a
+  pleasant time. I had some high hopes that my Nim version was going to perform faster than the book's code though it
+  didn't.  In fact, book no. 2 was much more woefully slow than the reference C++.
+</p>
+
+<p>
+  Now throughout the past 4-ish years, I've been seeing pictures from this book pop up here and there.  Especially book
+  1's final scene.  These books are now free to read online. I kind of now know what it feels like to purchase a game at
+  release, only to see it go free-to-play a short while later.  I think it's good that this introductory resource is now
+  available to all.  The HTML format is much better than the Kindle eBook in my opinion.
+</p>
+
+<p>
+  With the popularity of ray tracing exploding recently (thanks to hardware acceleration) I've only run across this book
+  even more!  A few months back I was itching to start a CG project.  So I thought to myself &quot;<em>Why don't I revisit
+  those ray tracing books, but this time do it in C++ 17.  And try to optimize it as much as possible?  Let's see if I can
+  beat the book this time!</em>&quot;  I chose this because I have been a little lax on learning the new(ish) C++17 features.
+  I also wanted to see how far I could push a CPU bound renderer.
+</p>
+
+<p>Here were some goals &amp; restraints:</p>
+
+<ul>
+  <li>
+    Write modern, clean, standard C++ 17 code
+
+    <ul>
+      <li>Needs to compile on Windows, Mac &amp; Linux, under GCC &amp; Clang</li>
+      <li>
+        Should be as vanilla as possible
+
+        <ul><li>
+          Two exceptions are single-header/static libraries (e.g PCG32), and one Boost library. Single header libs
+          typically are pure C++ themselves and Boost is a defacto standard library for C++ anyways
+        </li></ul>
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    Give the code a nice, cleaner project architecture
+
+    <ul>
+      <li>The books' original project structure is kinda messy to be honest</li>
+      <li>
+        I still have the keep the general architecture of the ray tracing operations itself, but I'm free to rename and
+        re-organize things as I see fit
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    Have it perform better than the books' implementation
+
+    <ul><li>But add compilation (or runtime flags) to compare the book's methods with my own</li></ul>
+  </li>
+
+  <li>
+    Add some extra features to the ray tracer
+
+    <ul>
+      <li>Be able to reproduce every scene in the book, and deterministically</li>
+      <li>Mutli-threading provided by <code>std::thread</code></li>
+      <li>
+        I wasn't allowed to add any new rendering techniques that were beyond the scope of the book.  E.g. No adaptive
+        sampling.  Threading is allowed since I can turn it off, as to compare the performance of my code vs. the books'.
+        It's not really fair to compare Adaptive sampling vs. No adaptive sampling.
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<br>
+<br>
+<h2>Books 1 &amp; 2: Ray Tracing in One Weekend, and The Next Week</h2>
+
+<h3>Revision 1</h3>
+
+<p>
+  Setting out, it was pretty simple what I would do here.  Read a section of the book, copy over the code, see if it
+  worked, then continue on if so.  While going through each section I would try to consider if there was a more performant
+  way that the code could be written.  Sometimes this would involve simply reordering lines of code, so that the compiler
+  could do <a href="https://en.wikipedia.org/wiki/Automatic_vectorization">auto-vectorization</a>.  Other times, I would
+  ponder if there was a more efficient algorithm.
+</p>
+
+<p>
+  A simple to follow example here would be the alternative <code>*Rect::hit()</code> methods (take
+  <a href="https://github.com/define-private-public/PSRayTracing/blob/52fa79a5b1978deffe1119338e59d26b283072c0/src/Objects/Rectangles.cpp#L33"><code>XYRect::hit()</code></a>
+  for reference, the Book's code has this structure:
+</p>
+
+<ol>
+  <li>Do Math (part A)</li>
+  <li>Branch if A's math is bad (by doing math to check if so)</li>
+  <li>Do more math (part B)</li>
+  <li>Branch if B's math is bad</li>
+  <li>Do even more math (part C)</li>
+  <li>Store results (part C) in variables</li>
+</ol>
+
+<p>
+  If you want to speed up your program, one of the best ways to do this is reducing the number of branches. Try to put
+  similar sections together. My code has the following structure for the <code>hit()</code> method:
+</p>
+
+<ol>
+  <li>Do Math (parts A, B, &amp; C together)</li>
+  <li>Branch if math is bad (either A or B)</li>
+  <li>Store the computed math (from C) if it's good</li>
+</ol>
+
+<p>
+  Compilers are pretty good at recognizing parts of your code that could benefit from auto vectorization.  But putting all
+  of the math operations together in one section gives the compiler better hints on how to solve these tasks much more
+  efficiently.  Reducing the possibilities of branches also helps as well.
+</p>
+
+<p>
+  Another great example of this comes from the <a href="https://github.com/define-private-public/PSRayTracing/blob/52fa79a5b1978deffe1119338e59d26b283072c0/src/AABB.cpp#L71"><code>AABB::hit()</code></a>.
+  The books' solution is chock-full with branches.  The method I used (not 100% my own creation) eliminates the vast
+  majority of the branching and keeps similar computations close together so that auto-vectorization can be achieved.
+</p>
+
+<p>
+  If you think you have something that's faster, the best way is to prove it is by measuring.  And the best way to test
+  this is by setting up a long render (e.g. 5 minutes).  Don't forget to run it a few times, in order to make sure the
+  renders complete within the same general time frame (with five minutes, it's okay to be off by a second or two).  After
+  that, you swap your changes and see if it shaves off a significant portion; which must be consistent through multiple
+  runs.
+</p>
+
+<p>
+  Sometimes performance boosts from these ways could be quite significant (e.g. 8-15%), other times, they could be
+  really-really tiny (e.g. 1-2%).  For example, if you shave 10 seconds off of a 5 minute render time, that's only 3%.  It
+  can be a little difficult to conclude if a change truly saves on rendering time.  So then that usually involves doing
+  renders that would normally take upwards of 30 minutes, only to see if you still get that 3% render time improvement.
+  You need to make sure that your computer is not running any other processes at the time too.
+</p>
+
+<p>
+  And another important method of testing is to also verify any code changes on different hardware too.  For example,
+  sometimes on a Gen 7 Intel chip I would get a 30% speedup! But then on Gen 9 it was only 10% (still good).  Then on a
+  Gen 10 would maybe give me only mere 2%; I'd still take that.
+</p>
+
+<p>
+  I had a few optimizations that were in the ~1% area.  These are the hardest to prove if there was any actual change on
+  the rendering performance or not.  This is where things start to get into the microbenching realm. Iit gets much more
+  difficult to measure accurately.  Environmental conditions can even start to affect measurements.  I'm not talking about
+  what operating system you're running on, but the actual temperature of your hardware.  <a href="https://vstinner.github.io/intel-cpus-part2.html">This page</a>
+  gives good detail on the relationship between heat and speed.  Another way to test any micro optimizations is by taking
+  the 1% changes and trying them out together.  See if the sum of their parts makes a significant boost.
+</p>
+
+<p>
+  While running after all of these little improvements, I was reminded of <a href="https://www.youtube.com/watch?v=kPR8h4-qZdk">Nicholas Omrod's 2016 CppCon presentation about
+  small string optimizations at Facebook</a>.  After a lot of work, they were able to get a custom <code>std::string</code>
+  implementation that was 1% more efficient.  For them, that can be a very big deal.  Though to your average company, that
+  might not be so enthralling to spend time on.  I can't remember the exact words, but some other wisdom was given in that
+  talk: &quot;For every small change we make, it adds up; and eventually, we make a big leap.&quot;
+</p>
+
+<p>
+  A very important tool that I cannot forget to mention is <a href="https://godbolt.org/">Matt Godbolt's Compiler Explorer</a>.  Those of you in C++ circles
+  have definitely seen this before.  For those of you outside of them, this tool lets you look at the generated assembly
+  code for any given C/C++ snippet.  With this, you can see if any C++ code rewriting/reordering would generate more
+  efficient CPU code.  The compiler explorer can also help you search for micro optimizations.  Which as stated before,
+  can be a little hard to measure with purely time lapping alone.  I used the compiler explorer to see if there was a way
+  to rewrite code that would reduce branching, use vectorized instructions or even reduce the amount of generated
+  assembly.
+</p>
+
+
+<p class="special-note">
+  I do want to note that in general reducing the amount of instructions a program has to run through doesn't always mean
+  that it will run faster.  For example, take a loop that has 100 iterations.  If it were to be <a href="https://en.wikipedia.org/wiki/Loop_unrolling">unrolled</a> by the compiler,
+  it would generate more assembly in the final executable.  That unrolled loop will run faster since the loop no longer
+  needs to check 100 times if the iteration is done.  This is why we always measure our code changes!
+</p>
+
+<p>
+  One of the other key problems here was ensuring that my renders were always deterministic.  Meaning, given the same
+  inputs (resolution, samples-per-pixel, scene setup, etc.), the output render should be exactly the same.  If I
+  re-rendered with more or less cores, it should be the same as well.
+</p>
+
+<p>
+  The RNG controls where a Ray is shot.  When the ray hits an object it could be bounced into millions of directions.
+  Maybe 1/2 those possibilities will send the ray into the sky (where next to no objects are), and the other half could
+  send it into a hall of mirrors filled with diamonds (an unlimited no. of bounces).  A small tweak in the RNG could bias
+  it (ever so slightly) into one of those areas more than the other.  And if the hall of mirrors scene was set up by
+  another RNG, any changes to that will also change the scene quite a bit, thus also changing the render time.
+</p>
+
+
+<p>
+  For example, the final scene of book 2 had three components that rely on the RNG.  The floor (a bunch of boxes of
+  varying heights), a &quot;cloud&quot; of spheres, and the BVH node structure.  I tested out an optimization for the
+  <code>Box</code> object that required the RNG.  Rendering the cornell box example was about 6% faster.  But when rendering out the
+  aforementioned final scene it was 15% slower...  I noticed that all of the floor boxes and &quot;sphere cloud&quot; were
+  placed differently with the optimization on/off.  At first I thought that couldn't be the issue.  But when I used two
+  separate RNGs (one for controlling the layout of the scene, the other for the Box optimization).  Not only did I get
+  back my original scene layout, I also got that perf boost I saw from the Cornell Box scene.
+</p>
+
+<p>
+  <a href="https://storage.googleapis.com/sixteenbpp/blog/images/psraytracing-retrospective/render_final2_seed-ASDF.png">
+    <img src="https://storage.googleapis.com/sixteenbpp/blog/images/psraytracing-retrospective/render_final2_seed-ASDF.png"
+         width="960" height="540" alt="Final Scene (book 2) [seed = ASDF]">
+  </a>
+
+  <a href="https://storage.googleapis.com/sixteenbpp/blog/images/psraytracing-retrospective/render_final2_seed-0123456789.png">
+    <img src="https://storage.googleapis.com/sixteenbpp/blog/images/psraytracing-retrospective/render_final2_seed-0123456789.png"
+         width="960" height="540" alt="Final Scene (book 2) [seed = 0123456789]">
+  </a>
+</p>
+
+<p>
+  Let's take two different renders of that final scene, but for the first image, I set the RNG to be &quot;<code>ASDF</code>&quot; and
+  for the second it's &quot;<code>0123456789</code>&quot;.  These were rendered a few times over (to get a good average). The above
+  rendered in an average of 973.0 seconds.  The lower took an average of 1021.1 seconds.  While that not seem like much, changing the RNG's
+  seed made it render 5% slower!
+</p>
+
+<p>
+  I tried to make it when toggling on/off my optimizations, the resulting images would be the same.  But there are some
+  cases in which this ideal was bent a little.  To be more specific, I'm talking about the trig approximations. If you're
+  making a flight control system or a spacecraft, you want to be damn sure that all of your mathematical formulas are
+  correct; but when it comes to graphics, we can fudge things if they fool the user. A.k.a the &quot;<em>eh... looks good
+  enough</em>&quot; guideline.
+</p>
+
+
+<p>
+  Another good example here is that of the approximations for <code>asin()</code> and <code>atan2()</code>.  For texturing spheres, the
+  difference is barely noticeable, but the speed boost was impactful.  It's very unlikely that without a comparison that
+  flips between the two images quickly, no one would notice the difference!  Though if we were to have a much higher
+  detailed texture, and be zoomed in much closer to any of the trouble points (e.g having only the UK &amp; Ireland in
+  view), it's more likely a viewer might see something odd.
+</p>
+
+<p>
+  <a href="https://storage.googleapis.com/sixteenbpp/blog/images/psraytracing-retrospective/earth_ground_truth.jpeg">
+    <img src="https://storage.googleapis.com/sixteenbpp/blog/images/psraytracing-retrospective/earth_ground_truth.jpeg"
+          width="512" height="512" alt="Earth [ground truth]">
+  </a>
+
+  <a href="https://storage.googleapis.com/sixteenbpp/blog/images/psraytracing-retrospective/earth_approx_with_ec.jpeg">
+    <img src="https://storage.googleapis.com/sixteenbpp/blog/images/psraytracing-retrospective/earth_approx_with_ec.jpeg"
+          width="512" height="512" alt="Earth [ground truth]">
+  </a>
+</p>
+
+<p>
+  While the approximation optimization doesn't produce the exact same image.  I guarantee you if you showed one of these
+  renders to a person for a minute, told them to look away, then showed them the other, they would tell you it's the exact
+  same picture.  If you can get a faster render and don't need it to be mathematically accurate, approximations are great!
+</p>
+
+<p>
+  Not all attempts at trying to squeeze more performance were successful.  I'm sure a lot of us have heard about the
+  famous <a href="https://en.wikipedia.org/wiki/Fast_inverse_square_root">fast inverse square root trick</a> that was used in Quake.
+  I was wondering if there was something similar for computing the non-inverse version, <code>std::sqrt()</code>.  The best resource
+  that I found on the subject <a href="https://www.codeproject.com/Articles/69941/Best-Square-Root-Method-Algorithm-Function-Precisi">was this</a>.
+  After exhausting all of the methods presented, they either produced a bad image, or were actually slower than <code>std::sqrt()</code>.
+</p>
+
+<p>
+  <a href="https://storage.googleapis.com/sixteenbpp/blog/images/psraytracing-retrospective/bad_sqrt.jpeg">
+    <img src="https://storage.googleapis.com/sixteenbpp/blog/images/psraytracing-retrospective/bad_sqrt.jpeg"
+         width="960" height="540" alt="Bad sqrt approximation">
+  </a>
+</p>
+
+<p>
+  Revision 1 (or as it's tagged in the repo, <code>r1</code>) was where most of the work was done in this project.  There were other
+  possibilities I wanted to explore, but didn't have the time initially, so I delegated these to later releases.  They
+  aren't as grand as this initial one, but each of them has their own notes of significance.
+</p>
+
+
+<br>
+<h3>Revision 2</h3>
+
+<p>
+  While I was initially working on the <code>Box</code> object, I couldn't help but think that using six rectangles objects stored
+  in a <code>HittableList</code> wasn't the most efficient way of rendering such an object. My initial optimization was to use a
+  <code>BVHNode</code> instead (which also required an RNG). While that led to a reduction in rendering time, I felt that this
+  could be pushed further. Looking at the <code>hit()</code> functions for each constituent rectangle, It seemed they could be put
+  together in one grander function. This would have some benefits:
+</p>
+
+<ul>
+  <li>Reduced memory overhead of creating seven extra objects.  Which also means less memory traversing (or pointer chasing)</li>
+  <li>Don't need to traverse a list (or tree) to find out what hit</li>
+  <li>The code to check for hits looks like it could be easily auto-vectorized and have reduced branching</li>
+</ul>
+
+<p>
+  I don't want to bore you with the gory details (<a href="https://github.com/define-private-public/PSRayTracing/blob/52fa79a5b1978deffe1119338e59d26b283072c0/src/Objects/Box.cpp#L51">
+  you can see them here</a>). This alternative <code>Box::hit()</code> function, it's quite SIMD friendly.  From some of
+  my measuring, this method was about 40% faster to render than the books' method!
+</p>
+
+
+<br>
+<h3>Revision 3</h3>
+
+<p>
+  At this point, I was starting to exhaust most of the &quot;under the hood&quot; optimizations that I thought could make
+  an impact.  Two more I explored this time around were &quot;Deep Copy Per Thread&quot; and &quot;BVH Tree as a
+  List&quot;.
+</p>
+
+<p>
+  Talking about that first one, this optimization was only available because my implementation allowed for rendering with
+  multiple cores (the books' code does not).  The scene to render is stored as a tree structure, filled with shared
+  pointers to other shared pointers to even more shared pointers.  This can be very slow if we're only reading data from
+  the tree; which is what happens during the rendering process. My hypothesis was &quot;For each thread I render with, if
+  I make a local copy of the scene tree to that thread, the render will finish faster&quot;.
+</p>
+
+<p>
+  I added an extra method to each object/material/texture called <code>deep_copy()</code>, which would well, produce a deep copy of
+  the object and its children.  This was quite a bit of a tedious task.  But when, for example, doing a render with 4x
+  cores.  Having &quot;copy per thread&quot; turned on, it would render the scene 20-30% faster!  I'll admit I'm not 100%
+  sure why this was so beneficial.  <a href="https://www.reddit.com/r/cpp_questions/comments/jl4vdd/why_exactly_did_copying_a_tree_of_pointers_to/">
+  I posed the question to one of Reddit's C++ communities</a>, but I have yet to be given a satisfactory answer.
+</p>
+
+<p>
+  &quot;BVH Tree as a List&quot; was more of a complex experiment.  While it was slightly more performant, it did not
+  yield the results that I hoped for.  The <code>BVHNode</code> class is nothing more than a simple object that may contain either
+  another hittabale object, or two child <code>BVHNode</code>s.  These are all stored with shared pointers.  I was concerned that
+  (reference counted) pointer chasing and fragmented (dynamic) memory might not be too efficient.
+</p>
+
+<p>
+  My thought was &quot;If I take all of the AABB's for each node, and store them linearly in an array (i.e. list), but in
+  such a way they can be traversed as a tree, this would allow for faster traversal&quot;.  The hope was that it would be
+  more memory/cache friendly to check all of the AABBs, rather than testing a chain of BVHNodes.  The speedup was quite
+  piddly; I measured about 1-2%.  The code is much more convoluted than the standard <code>BVHNode</code>.  If you wish to read it,
+  <a href="https://github.com/define-private-public/PSRayTracing/blob/52fa79a5b1978deffe1119338e59d26b283072c0/src/Objects/BVHNode_MorePerformant.cpp">
+  it's here</a> (don't forget to check out <a href="https://github.com/define-private-public/PSRayTracing/blob/52fa79a5b1978deffe1119338e59d26b283072c0/src/Objects/BVHNode_MorePerformant.h">
+  the header file</a> too!)
+</p>
+
+<p>
+  At this point, I thought I had hit a limit on what I could change without breaking the architecture.  I was looking to
+  work on the implementation for book 3, but I decided it might be best to take a little break.
+</p>
+
+
+<br>
+<h3>Revision 4</h3>
+
+<p>
+  As I mentioned before, this mini-book series has exploded in popularity.  Reading Peter Shirley's Twitter, I
+  saw him retweeting images of a project called RayRender; a ray tracer for the R programming language that's useful for
+  data-viz.  This ray tracing program was actually based off of these mini-books.  After that, I subscribed to
+  <a href="https://twitter.com/tylermorganwall">Tyler Morgan-Wall's Twitter</a>.  In part, watching his progress made me
+  interested in revisiting these books.
+</p>
+
+<p>
+  In a Christmas Eve tweet, he said that he was able to give RayRender a 20% performance boost.  My curiosity was piqued
+  and I started to scour through his recent commits.
+</p>
+
+<p>
+  For the <code>HitRecord</code> class, he simply changed a shared pointer over to being a raw pointer.  That was all.  <code>HitRecord</code>
+  and its material pointer member are used a lot during the rendering process.  It really makes no sense for them to be
+  shared pointers at all.  This little change netted me a 10% - 30% perf. boost!  This one I'm a little upset about not
+  realizing myself.
+</p>
+
+
+<br>
+<br>
+<h2>Book 3: Ray Tracing the Rest of Your Life</h2>
+
+<p>
+  Before working on <code>r2</code> I tried to make an attempt at book 3.  But while
+  working through its initial chapters, I soon realized it was impossible to make sure I could render any older scenes.
+  This was because the core logic of the main rendering function was changing quite a bit from chapter to chapter.
+</p>
+
+<p>
+  But in the interest of completeness (and that I exhausted all other possible optimizations I could think of), I set out
+  to finish the series.  It's in a separate branch called <code>book3</code>.  It can't render any of the older scenes from books 1
+  &amp; 2.
+</p>
+
+
+<br>
+<h3>Revision 5</h3>
+
+<p>
+  There is nothing special about this revision. It's nothing more than book 3 alone.  It only
+  supports four scenes;  the Cornell Box box with various configurations.
+</p>
+
+<p>
+  While I was working on it, I did encounter a &quot;fun&quot; rendering bug that was an absolute pain to figure out.  I
+  forgot to set an initial value for a variable.  Take this as a good lesson on why you should always assign an initial
+  value to anything.
+</p>
+
+<p>
+  <a href="https://storage.googleapis.com/sixteenbpp/blog/images/psraytracing-retrospective/forgot_to_init.png">
+    <img src="https://storage.googleapis.com/sixteenbpp/blog/images/psraytracing-retrospective/forgot_to_init.png"
+         width="1220" height="757" alt="Forgot to init a variable">
+  </a>
+</p>
+
+
+<br>
+<h3>Revision 6</h3>
+
+<p>
+  While going through Book 3, I couldn't help but notice that during the rendering stage, we allocate dynamic
+  memory and pass it around with shared pointers; this is an absolute speed killer.  This was being done for the PDFs.
+  Taking a stern look at the code, it looked like the PDFs could be allocated as stack memory instead.
+</p>
+
+<p>
+  Part of the issue is that inside some of the objects' <code>hit()</code> functions, it could generate a PDF subclass of any time.
+  But then that function had to return the PDF as a pointer to a base class.  Then later on, the PDF would be evaluated
+  with virtual functions; <code>value()</code> and <code>generate()</code>.
+</p>
+
+<p>
+  So I thought &quot;<em>Wouldn't it be possible to pass around PDFs using a variant?</em>&quot;  One of the rules for variants is
+  that they must be allocated on the stack.  This solves the issue of dynamic memory (and usage of shared pointers).  Then
+  when we need to evaluate the PDF, the variant can tell us exactly which specific PDF to use, and thus the appropriate
+  <code>value()</code> and <code>generate()</code>.  Therefore, <code>PDFVariant</code> was born.  Any of the existing PDF subclasses can be put into it.
+</p>
+
+<p>
+  The code for this is on another separate branch called <code>book3.PDF_pointer_alternative</code>.  This also breaks the
+  architecture a little.  <code>MixturePDF</code> was a little bit of an issue since it originally required two shared pointers to
+  PDFs.  Replacing <code>PDFVariant</code> for those pointers doesn't not work, so I needed to use raw pointers to PDFs instead.
+</p>
+
+<br>
+<br>
+<h2>Final Thoughts</h2>
+
+<p>
+  It was a really great experience to re-explore this book series, as well as Ray Tracing. There are other optimizations
+  I think that could push the performance much further, but these all would require breaking architecture more than I
+  already have.  Just some ideas:
+</p>
+
+<ul>
+  <li>Remove all uses of shared pointers and use raw ones instead</li>
+  <li>Incorporate libraries like <a href="https://halide-lang.org/">Halide</a> so some parts could be run on the GPU (breaks my &quot;CPU-only&quot; rule though)</li>
+  <li>Incorporate other sampling methods; e.g. blue-noise or sobol</li>
+  <li>See if rendering could be performed &quot;breath first&quot; instead of &quot;depth first&quot;</li>
+</ul>
+
+<p>
+  When I first went through the book series four years ago, there were bits of errata here and there.  I made sure to
+  email Mr. Shirley whatever I found.  I think all of them have been cleaned up.  But since this book series is now freely
+  available online and a community project, some more have been introduced; I recall finding more in book 3 than others.
+</p>
+
+<p>
+  There are some other things I find a little unsatisfactory too:
+</p>
+
+<ul>
+  <li>Having to throw away all of the other scenes from books 1 &amp; 2 to do book 3.  It would be fun to revisit those former scenes with PDF based rendering</li>
+  <li>Rotations are only done along the Y axis, and there is no way to change the point an object is rotated about.
+      Though, anyone who wants to add this for the X &amp; Z axis should be able to easily do so.  Maybe in a future
+      revision of this book having the rotation method use quaternions instead</li>
+  <li>The Motion Blur effect feels wrong.  Only spheres can be motion blurred.  And for the feature, we had to give Rays a sense of time</li>
+</ul>
+
+<p>
+  But keep in mind the ray tracer that is built more on the educational side rather than being more &quot;real world
+  application&quot; focused.  It serves the purpose of teaching well.  I still recommend that anyone who is interested in
+  computer graphics give this book a read through.
+</p>
+
+<p>
+  There are other parts of CG programming I want to explore; I think it's a good time to move on.
+</p><div class="tags">Tags: <a href="https://16bpp.net/blog/tag/computer-graphics">Computer Graphics</a>, <a href="https://16bpp.net/blog/tag/c-cplusplus">C/C++</a>, <a href="https://16bpp.net/blog/tag/ray-tracing">Ray Tracing</a></div></div>
+</div>
+
+
+<div class="blog-entry-spacer"></div>
+
+<div class="blog-entry">
+  <div class="blog-entry-date">Mon Mar 16th, 2020 – 09:15 AM EST
+</div>
+  <div class="blog-entry-title"><a href="https://16bpp.net/blog/post/native-library-management-c-using-vcpkg-and-other-things">Native Library Management for C# using vcpkg (and other things)</a></div>
+  <div class="blog-entry-body"><p>Let me start with a bit of a narrative first:</p>
+<p>Around a year ago, I released a C#/.NET Core library called <a href="https://gitlab.com/define-private-public/Bassoon">Bassoon</a>.
+   I was looking for a cross platform (Windows, OS X, and Linux) audio`
+   playback library for C#, but I couldn’t find one that was suitable.
+   So I did what any normal software developer would do: make your own.
+   Instead of going full C# with it, I opted to take some off the shelf
+   C libraries and use P/Invoke to chat with them.  It uses <a href="http://www.mega-nerd.com/libsndfile/">libsndfile</a>
+   for decoding audio formats (sans MP3, but that might change soon).
+   And <a href="http://www.portaudio.com/">PortAudio</a>
+   for making speakers make noise.
+</p>
+<p>If you look at the repo’s README’s
+   <a href="https://gitlab.com/define-private-public/Bassoon/-/blob/f66400aa9c09e0ae0176a4e9e02c22f345389163/README.rst#developing">Developing</a>
+   section, you might notice that I’m not telling anyone one to do a
+   <code>sudo apt install libsndfile libportaudio</code> (or some other package
+   manager command for another OS).  I’m not the biggest fan of baked
+   dev environments.  They can be a pain to reproduce for others.  I
+   like to have my dependencies per project instead of being installed
+   system wide if I can help it.
+</p>
+<p>The only downside is that you need to
+   then create some (semi-) automated way for others to set up a dev
+   environment for the project.  E.g. all that “Download package from
+   here then <code>tar xzf</code>, <code>cd ...</code>, <code>./configure</code>, <code>make</code>, <code>make install</code>”
+   nonsense.  At first, I tried to make a simple bash script, but that
+   got kinda ugly pretty quickly.  I’m not the best shell programmer
+   nor am I too fond of the syntax.  There was a consideration for
+   Python too, but I assumed that it could get a bit long and verbose.
+</p>
+<p>I found out about CMake’s
+   <code><a href="https://cmake.org/cmake/help/latest/module/ExternalProject.html">ExternalProject_Add</a></code>
+   feature and set off to make <a href="https://gitlab.com/define-private-public/Bassoon/-/blob/040176dcf1c9b649d3de6c6b7e1e97259fc6baf3/third_party/CMakeLists.txt">one
+   surely disgusting CMakeLists.txt file</a>.  After a lot of
+   pain and anguish, I got it to work cross platform and generate all of
+   the native DLLs that I desired.  Some things that stick out in my
+   mind are:
+</p>
+<ul>
+   <li>having to also run the <code>autogen.sh</code> in some cases</li>
+   <li>needing to rename DLLs on Windows</li>
+   <li>finding the correct  <code>./configure</code> options to use on OS X</li>
+</ul>
+<p>These all reduced the
+   elegance/simplicity. But hey, it works!... Until about a month ago…
+</p>
+<p>While it was still good on Linux to set
+   up a clean build environment.  After some updates on OS X, it stopped
+   building.  Same for Windows/MSYS2 as well.  This has happened before
+   for me with MSYS2 updates (on other projects) and I waslooking for an
+   alternative solution.
+</p>
+<hr>
+<p>C++ specific package managers are a tad
+   bit of a new thing.  I remember hearing about <a href="https://conan.io/">Conan</a>
+   and <a href="https://github.com/microsoft/vcpkg">vcpkg</a>
+   when they first dropped.  After doing a little research, I opted to
+   use the Microsoft made option.  While it was yet another piece of
+   software to install, it seemed quite straightforward and easy to set
+   up.  PortAudio and libsndfile was in the repo as well.  After testing
+   it could build those libraries for all three platforms (which it
+   did), I was sold on using it instead.  There were a few caveats, but
+   well worth it for my situation:
+</p>
+<ol>
+<li>
+   Dynamic libraries were
+   automatically built on Windows, but I needed to specify 64 bit.  It
+   was building 32 bit by default
+</li>
+<li>For Linux and OS X, static
+   libraries are built by default.  If you want the dynamic ones all
+   you have to do is something called <a href="https://github.com/microsoft/vcpkg/blob/4d551ff4b3cea2f387b02ed69486a23b1be2fd73/docs/examples/overlay-triplets-linux-dynamic.md">overlaying
+   tripplets</a>
+</li>
+<li>
+   The generated file names of the
+   DLLs were not always what I needed them to be.  For example, in my
+   C# code I have<code>[DllImport(“sndfile”)]</code> to make a P/Invoked
+   function.  On Windows, the DLL name must be <code>sndfile.dll</code>, Mac OS is
+   <code>libsndfile.dylib</code>, finally Linux is <code>libsndfile.so</code>.  On Windows I
+   get <code>libsndfile-1.dll</code> built by default.  Linux nets me
+   <code>libsndfile-shared.so</code>.  For these a simple file renaming works.  OS
+   X is a bit of a different story:
+</li>
+</ol>
+<p>
+   You see, every operating
+   system has their own personality quirks.  The Apple one is no
+   exception.  When I tried renaming <code>libsndfile-shared.dylib</code> to
+   <code>libsndfile.dylib</code>, <code>dotnet run</code> crashed saying it couldn’t find
+   the library.  I know that I had all of the path &amp; file locations
+   correct, as the previous CMake built libraries worked.  I was kinda
+   of stumped...
+</p>
+<p>
+   After setting <code>DYLD_PRINT_LIBRARIES=1</code> and
+   trying another run I got a little hint.  <code>libsndfile.dylib</code> was
+   being loaded and then unloaded almost as soon as it was
+   called:
+</p>
+<pre>dyld: loaded: /Users/ben/Desktop/Bassoon/third_party/lib//libsndfile.dylib
+dyld: unloaded: /Users/ben/Desktop/Bassoon/third_party/lib//libsndfile.dylib</pre>
+<p>
+   It also should be loading up <code>libogg.dylib</code>, <code>libFLAC.dylib</code>,
+   <code>libvorbis.dylib</code>, etc. but that wasn’t happening.  Looking at the
+   vcpkg generated libs, running <code>otool -L</code> (OS X’s version of <code>ldd</code>),
+   I got the reason why things weren’t the way I expected:
+</p>
+<pre>$ otool -L *
+libFLAC.dylib:
+    @rpath/libFLAC.dylib (compatibility version 0.0.0, current version 0.0.0)
+    @rpath/libogg.0.dylib (compatibility version 0.0.0, current version 0.8.4)
+    /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1252.250.1)
+libogg.dylib:
+    @rpath/libogg.0.dylib (compatibility version 0.0.0, current version 0.8.4)
+    /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1252.250.1)
+libsndfile.dylib:
+    @rpath/libsndfile-shared.1.dylib (compatibility version 1.0.0, current version 1.0.29)
+    /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1252.250.1)
+    @rpath/libogg.0.dylib (compatibility version 0.0.0, current version 0.8.4)
+    @rpath/libvorbisfile.3.3.7.dylib (compatibility version 3.3.7, current version 0.0.0)
+    @rpath/libvorbis.0.4.8.dylib (compatibility version 0.4.8, current version 0.0.0)
+    @rpath/libvorbisenc.2.0.11.dylib (compatibility version 2.0.11, current version 0.0.0)
+    @rpath/libFLAC.dylib (compatibility version 0.0.0, current version 0.0.0)
+libvorbis.dylib:
+    @rpath/libvorbis.0.4.8.dylib (compatibility version 0.4.8, current version 0.0.0)
+    @rpath/libogg.0.dylib (compatibility version 0.0.0, current version 0.8.4)
+    /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1252.250.1)
+libvorbisenc.dylib:
+    @rpath/libvorbisenc.2.0.11.dylib (compatibility version 2.0.11, current version 0.0.0)
+    @rpath/libogg.0.dylib (compatibility version 0.0.0, current version 0.8.4)
+    @rpath/libvorbis.0.4.8.dylib (compatibility version 0.4.8, current version 0.0.0)
+    /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1252.250.1)
+libvorbisfile.dylib:
+    @rpath/libvorbisfile.3.3.7.dylib (compatibility version 3.3.7, current version 0.0.0)
+    @rpath/libogg.0.dylib (compatibility version 0.0.0, current version 0.8.4)
+    @rpath/libvorbis.0.4.8.dylib (compatibility version 0.4.8, current version 0.0.0)
+    /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1252.250.1)</pre>
+<p>From this, I was able to
+   identify two problems:
+</p>
+<ol>
+   <li>The “id” of a dylib didn’t
+      match it’s filename.  E.g. <code>libvorbis.dylib</code>’s id was set to
+      <code>libvorbisfile.3.3.7.dylib</code>
+   </li>
+   <li>The dylibs were looking for
+      non-existent dylibs.  E.g. <code>libvorbisenc.dylib</code> was looking for
+      <code>libogg.0.dylib</code>.
+   </li>
+</ol>
+<p>As to why this
+   wasn’t happening with the previously CMake build native libs, it’s
+   because they were configured/compiled with <code>--disable-rpath</code>.  With
+   vcpkg, I wasn’t able to set this when building <code>libsndfile</code>.  The
+   OS X toolkit does have a utility to fix the rpaths;
+   <code><a href="https://www.unix.com/man-page/osx/1/install_name_tool/">install_name_tool</a></code>:
+</p>
+<ol>
+   <li><code>install_name_tool -id
+      &quot;@rpath/&lt;dylib_file&gt;&quot; &lt;dylib_file&gt;</code> is used to
+      set the id we want
+   </li>
+   <li><code>install_name_tool -change
+      &quot;@rpath/&lt;bad_dylib_path&gt;&quot; &quot;@rpath/&lt;good_dylib_path&gt;&quot;
+      &lt;dylib_file&gt;</code> can fix an incorrect rpath
+   </li>
+</ol>
+<p>Since I wanted the setup process to be
+   fire and forget I still needed to write a script to automate all of
+   this.  At first I considered bash again, but then I thought “<em>I
+   don’t want to force someone to install the entire MSYS2 ecosystem
+   for Windows.  What else can I use?...</em>” Python came to mind.
+   Any developer is bound to have Python on their machine.  I know
+   that’s what I tried to avoid in the first place, but looking at the
+   built in libraries for Python 3.x (.e.g <code>shutil</code>, <code>subproccess</code>,
+   <code>pathlib</code>, etc) it was a better choice IMO.  I also like the syntax
+   more; I’ll always trade simple and easy to understand code <em>any
+   day</em> over something that’s complex and shorter.  For an example,
+   here is how I have the dylibs for OS X fixed up:
+</p>
+<script src="https://gist.github.com/define-private-public/ca73b68d76fc2e2e3c5d184af5037b71.js"></script>
+<p>To run <a href="https://gitlab.com/define-private-public/Bassoon/-/blob/f66400aa9c09e0ae0176a4e9e02c22f345389163/third_party/setup.py">this
+   3rd party dependency setup script</a>, all you need to do
+   is set an environment variable telling it where vcpkg is installed
+   and then it will take care of the rest!
+</p>
+<hr>
+<p>Now that all of the native library
+   dependencies have been automated away, the next challenge was
+   packaging them for NuGet.  Before, I told my users to “<em>clone the
+   repo and run the CMake setup command yourself</em>”.  That wasn’t
+   good for many reasons.  A big one being that no one could easily make
+   their own program using Bassoon and easily distribute it.  I know
+   that I needed to also have the native libs also put inside the NuGet
+   package, but what to do…
+</p>
+<p>If you search for “<em>nuget packaging
+   native libraries</em>” into Goggle you get a slew of results telling
+   you what to do; all of it can seem overwhelming from a quick glance.
+   “<em>Do I use <code>dotnet pack</code> or <code>nuget pack</code>?</em> <em>Do I need to
+   make a separate <code>.nuspec</code> file?  But wait, <code>dotnet pack</code> does that
+   for me already…</em> <em>What is a <code>.targets</code> file? What is a
+   <code>.props</code> file?  How many of those do I need? What is this whole
+   <code>native/libs/*</code> tree structure?  Oh man, all that XML looks
+   complicated and scary.  I have no idea what I’m reading.</em>”
+   Throwing in cross platform native libraries adds a whole other level
+   of trouble too.  Most tutorials are only written for Windows and for
+   use within Visual Studio.  Not my situation, which was all three
+   major platforms.  Even peeking into other cross platform projects
+   (e.g. <a href="https://github.com/mono/SkiaSharp/tree/5e48f0dea2dbaeb3c59d7a24add9b1f2963d30e8">SkiaSharp</a>)
+   to see how they did it, makes it look even more confusing.  Too many
+   configuration files to make sense of.
+</p>
+<p>Then I found <a href="https://github.com/olegtarasov/NativeLibraryManager">NativeLibraryManager</a>.
+   It has a <em><strong>much</strong></em> more simpler method to solve this
+   problem: embed your native libraries inside of your generated .NET
+   DLL and extract them at runtime.  I don’t want to copy what it says
+   in it’s README, so go read that.  But I’ll summarize that I only
+   had to add one line for each native library to the <code>.csproj</code> (for
+   embedding).  Then for extracting at runtime, a little bit of code.
+   For people who want to use <code>PortAudioSharp</code> or <code>libsndfileSharp</code>
+   directly, they only need to call the function <code>LoadNativeLibrary()</code>
+   before doing anything else.  And as for the nature of Bassoon’s
+   initialization, they don’t have to do anything!
+</p>
+<p>I cannot thank <a href="https://github.com/olegtarasov">@olegtarasov</a>
+   enough for creating this.  I’m a programmer. I like to write code;
+   not configuration and settings files.
+</p>
+<p>At the time of writing,
+   <code>libsndfileSharp</code> package is partially broken for OS X due to a bug
+   in NativeLibraryManager.  <a href="https://github.com/olegtarasov/NativeLibraryManager/issues/5">But
+   a ticket has been filed</a> explaining what’s wrong and
+   most likely what needs to be fixed.  It should be good soon :P
+</p>
+<p>If anyone wants to help out with Basson
+   (e.g. adding multi-channel support) or the lower level libraries
+   (adding more bindings to libsndfile and PortAudio), <a href="https://gitlab.com/define-private-public/Bassoon">I
+   do all of the development over on GitLab</a>.
+</p>
+<hr>
+<br>
+<br>
+<br>
+<p>I’d like to mention that I’m a
+   little less employed than I would like to be; I need a job. My
+   strongest skills are in C/C++, C#/.NET, Python, Qt, OpenGL, Computer
+   Graphics, game technologies, and low level hardware optimizations.  I
+   currently live in the Boston area, so I’m looking for something
+   around there.  Or a company that lets me work remotely is fine too.
+   I’m also open to part time, contract, and contract-to-hire
+   situations.  <a href="https://16bpp.net/contact">If
+   you send me an email</a> about your open positions, I’ll
+   respond with a full resume and portfolio if I’m interested.
+</p>
+<p>Please; I’m the sole provider for a
+   cat who’s love is motivated by food.  Kibble ain’t free.
+</p><div class="tags">Tags: <a href="https://16bpp.net/blog/tag/csharp">C#</a>, <a href="https://16bpp.net/blog/tag/projects">Projects</a></div></div>
+</div>
+
+
+<div class="blog-entry-spacer"></div>
+
+<div class="blog-entry">
+  <div class="blog-entry-date">Thu Jan 16th, 2020 – 12:10 PM EST
+</div>
+  <div class="blog-entry-title"><a href="https://16bpp.net/blog/post/views-on-godot-3_1">Views on Godot (3.1)</a></div>
+  <div class="blog-entry-body"><img src="https://storage.googleapis.com/sixteenbpp/blog/images/views-on-godot-3_1/godot-logo.png" alt="Godot Logo" width="944" height="333" class="in-center">
+
+<p>If you want to go ahead and skip to the game I made, <a href="https://16bpp.net/games/pucker-godot-edition-2020/">it's over here.</a></p>
+
+<p>About 4+ years ago I heard about a new(-ish) game engine called <a href="https://godotengine.org">Godot</a>.  I thought that it was kinda neat to have another open source one around, but I didn't think too much of it.  In the past few years I'd hear about it again from time to time (e.g. when it gained C# support, making it a Unity contender).  I was kind of interested in making something with it, but at the time I had no ideas.</p>
+
+<p>Recently, I thought "<em>It has sure been a while since I worked on a personal (technical) project.  Not to mention a video game.  I'm kinda itching to try out that there Godot thingy...</em>".  So about two-ish months ago, I decided to build something with this engine.  Thinking about what could be small, short, but good enough to get my feet wet, I settled on reimplementing my <a href="https://16bpp.net/games/pucker-up-lgj-2017/">Linux Game Jam 2017 entry Pucker Up.</a></p>
+
+<p>Lemme take a brief aside to tell you about Pucker Up.  As stated before, it was for a jam.  My first Jam in fact.  At that time, I was a bit more into tinkering with the Nim language.  I kinda wanted to be a bit more <strong>HARDCORE™</strong> with my approach in the jam.  Luckily the only restriction was "<em>Make a game that runs on Linux</em>".  No theme whatsoever; quite nice.  We had 72 hours to finish and submit it.  Then it would be live streamed by the jam creator.</p>
+
+<p>I originally planned out a much more complex game (i.e. what was a tower defence).  Then being <strong>HARDCORE™</strong> I set out to grab some GLFW bindings, write my own game engine/framework, graphics/shaders, physics, etc.  At the end of the first day, I realized how much of a difficult decision that I had made.  All I got done were the initial windowing and input management, being able to draw flat coloured debug circles, and circle intersection algorithms; it was absolutely piddly.  Realizing the pickle I had put myself into, I reevaluated what I could do with the toolkit I had made from scratch.  I threw out my 99% of my original idea.  Thinking instead about some sort of arcade-like game.  The result was a sort of Pong with the goal in the center, where you had to keep the puck out of it.  The QWOP control scheme happened by accident (I swear).  Turned out it was kind of fun.</p>
+
+<p>After the Jam was over, leveraging Nim's compile to JS feature, I was actually able to make a web browser playable version of the game in a short amount of time.   I didn't have to force users to download a sketchy executable which was nice.  That took me about two weeks since I needed to also add some extra Nim to JS/HTML5 bindings and work out a few kinks and bug or two.  But it actually was quite simple.  <small>(Speaking about Nim, it also has some <a href="https://github.com/pragmagic/godot-nim">Godot bindings too.</a>)</small></p>
+
+<p>I've been looking at that JS/HTML5 version of Pucker Up for the two-ish years, discovered some bugs here and there, I thought it would be best to give it a little refresh.  So instead of trying to wracking my brain to think up a new game, I settled on renewing something old I had.</p>
+
+<p>Back to Godot-land. What I would say that originally drew me to the engine is it seemed like a nice professional project that was very liberal with it's licensing and it is openly developed.  Linux being a first class citizen for the project is very sweet too.  I tried out the Unreal engine on Linux and wasn't too happy with it.  I've also had some serious issues with playing Unity made games on Linux.</p>
+
+<p>I'm a person who has probably made more game engines than games.  I don't know why this has been the case for me, but it just has.  Maybe it's that feeling of being closer to what's going on in the whole program, or rather knowing 100% how something was made.  Looking at the source for Godot (and the docs, which has A+ tutorials), I appreciate how easy and hackable this engine is.  And to boot, the community is quite friendly.</p>
+
+<img src="https://storage.googleapis.com/sixteenbpp/blog/images/views-on-godot-3_1/source-editor-screenshot.png" width="404" height="299" alt="Godot's built in source editor" class="on-left">
+
+<p>I originally wanted to make my game in C#, as I prefer the more structured languages.  I soon found out that it was a no-go for me.  My desire is to target the Web as my main platform.  As of writing this blog post, C# only has desktop support.  Therefore, I would have to use Godot's built in language GDScript.  I wasn't too adversed to trying it out.  It had a very Pythonic feel to it.  This also helps too if I want to bring Pucker Up to any Android or iOS platform.  It definitely feels a little odd a times.  In the sense that I feel that I'm writing Python code, but some of the APIs are completely different.  I also miss the safety of explicitly typed languages.  They offer some more preflight checks.  Godot has some (Python is even worse), yet I am not completely satisfied.  In the future, if I make a serious Desktop game, I'm going to use C#.  But for jams and any non-Desktop platforms, I'll reluctantly use GDScript.  I really don't like writing JavaScript though I want to target the web, so I'm willing to make this small compromise.</p>
+
+<img src="https://storage.googleapis.com/sixteenbpp/blog/images/views-on-godot-3_1/milhouse-cry-javascript.jpg" alt="Javascript Makes Me and Milhouse want to cry" width="320" height="240" class="on-right">
+
+<p>The tutorial section of the Docs are quite good, but the API docs don't feel like they are fully here right now.  For example if you look at much of Microsoft's C# docs, many methods usually have an accompanying example with them.  This isn't always the case with Godot.  For instance, to spruce up Pucker Up, I wanted to add some directional sound.  Doing some googling I was led to the docs for <a href="https://docs.godotengine.org/en/3.1/classes/class_audioeffectpanner.html">AudioEffectPanner</a>.  Looking through, it's super sparse, and doesn't have a simple example of how it can be used.  Not nice.</p>
+
+<p>The main draw of using any engine is "<em>Look at all the stuff we provide for you.</em>"  When I started make games, it mostly was only a set of APIs.  Tooling was something you had to do on your own.  Godot provides a pretty nice editor (UI, level, animation, etc...), but it does take some learning.</p>
+
+<p>I'm also a pretty big fan of Animation (go look through some of my other posts to see).  The builtin framework for Animation that Godot provides I think is nice, but the editor isn't the most intuitive.  I've used programs such as Flash (R.I.P.), Moho, Clip Studio Paint, and even Unity.  They were always pretty easy to get started with.  In Godot, I had some trouble figuring out how to key properties.  I didn't know what kind of interpolation I was initially using.  And the curves editor was difficult when it came to zooming it's viewport(.e.g I needed to work on a value in the range of [0.0, 1.0], it was a bit of a struggle).  One of the other things that drove me nuts:  <strong>If you didn't reset the playback head to `0` before running your game, the animation would start where the head was left in the editor.</strong>  I can see how this is handy for Animations that are longer (.e.g 5+ seconds).  Though if you notice in video games, many actions/effects are on the quick side (e.g. 1/4 of a second).  When you're doing this, you tend to what to see the whole thing.  I will admit that my digital animation experience it a bit lacking (I think I've spend more hours with a pencil and paper than with a Wacom tablet), but some stuff didn't feel that natural.  I also ran into a bug: when tabbing through options to adjust properties, sometimes the editor would freeze. Not fun.</p>
+
+<img src="https://storage.googleapis.com/sixteenbpp/blog/images/views-on-godot-3_1/godot-animation-screenshot.png" width="992" height="582" alt="Godot's Animation editor" class="in-center">
+
+<p>Godot also has a minimal UI framework is built in.  Adding custom skinning can be quite the hassle though.  A CSS like way to skin the UI would be wonderful (which is that the Qt and Gtk frameworks already do).  This might be a time sink for the engine (and would add much extra complexity) for what is only a minor feature.  I can dream though...</p>
+
+<p>After about two-ish months of work, I had a more sophisticated version of Pucker Up ready.  I had some extra animations, more sound variation, smoother movement, improved score reporting; I could go on for a while.  Without Godot, these would have taken much longer.  There was one last hurdle to overcome:  Exporting to HTML5.  I was hoping for this to be a few clicks and done, but it wasn't quite that easy.  Retrieving the HTML5 export was simple enough.  IIRC, there was a one-click download button.  Export prep was a breeze too.  The issue arose when I then went to run the game in my browser.  When I loaded up the <code>game.html</code> file in my browser, the scaling and placement of my assets were not where I expected them to be.  Even across browsers (and different machines) it all appeared vastly different.  I got some of my other friends to help me test this out.  I did file a <a href="https://github.com/godotengine/godot/issues/34851">ticket on the Godot issue tracker</a> about my problem.  I also asked the Godot Reddit community for their experiences with targeting HTML5.  From there, someone was able to suggest I tinker with the "Stretch" settings for the project.  <em>Voila!</em>  It gave me the result that I wanted and order was fully restored.  This was quite the frustrating experience and I think it could be remedied by mentioning these "Stretch" settings in the "<a href="https://docs.godotengine.org/en/3.1/getting_started/workflow/export/exporting_for_web.html">Exporting for the Web</a>" doc page.</p>
+
+<p>I've also noticed that the performance of Pucker Up is much smoother in Chrome(ium) than in Firefox.  That isn't good.  The later browser has some semi-choppy movement of the puck (and high speeds), and the sound effects (such as the bounces) weren't playing at the exact moment that they should.  They were off by a few milliseconds.  While this doesn't grandly impact the game (as it's still playable), I don't like having to add a "Plays slightly better on Chrome based browsers." footnote to my game page.</p>
+
+<p>All in all, it may seem that I'm be a little extra critical of Godot here, but in earnest it's been a very pleasant experience (re)making Pucker Up with it.  With were it stands right now, things can only get better with the framework as time goes on.  I'm looking forward to the next game jam I'll enter because I'm sure enough to use this tool.  Or maybe I go on with a more grand idea.  <strong>God</strong>ot <strong>only knows.</strong> :P</p>
+
+<p><a href="https://16bpp.net/games/pucker-godot-edition-2020/">You can find the Godot version of Pucker Up over here.</a>  Please enjoy.</p><div class="tags">Tags: <a href="https://16bpp.net/blog/tag/video-games">Video Games</a>, <a href="https://16bpp.net/blog/tag/projects">Projects</a></div></div>
+</div>
+
+
+<div class="blog-entry-spacer"></div>
+
+<div class="blog-entry">
+  <div class="blog-entry-date">Fri Aug 30th, 2019 – 09:46 PM EST
+</div>
+  <div class="blog-entry-title"><a href="https://16bpp.net/blog/post/status-update-9">Status Update 9</a></div>
+  <div class="blog-entry-body"><p>About two weeks ago, I decided to revisit <a href="https://16bpp.net/page/how-random-art-works/">Random Art</a> once more.  This time around, I wanted to put it in a browser, <a href="https://16bpp.net/page/random-art-in-webgl/">so I made a WebGL port</a>.  You can write equations in a scheme-like syntax, or generate your own.  I was going to use Nim at first, but I opted to try out TypeScript instead.  I've heard about this new JavaScript replacement language for quite a bit and I thought it was time to give it a go.  It's not bad IMO, but I'm not ready yet to fully commit to it.</p>
+
+<p>In other news, about a month ago I started a daily Japanese practice blog (毎日日本語練習ブログ).  I call it <a href="https://16bpp.net/niben/">日本語ベン強 (nihongo-benkyou)</a>.  It's a pun; you won't get it unless you know some of the language.  Since February of 2018, I've started taking Japanese classes.  Foreign languages have always been an affinity of mine, and I was looking for a new hobby that's not related to tech.  I created the blog so I could get some practice writing Japanese.  Even if it's not the most correct.  So far it's been fun.</p><div class="tags">Tags: <a href="https://16bpp.net/blog/tag/art">Art</a>, <a href="https://16bpp.net/blog/tag/procedural-generation">Procedural Generation</a>, <a href="https://16bpp.net/blog/tag/status-update">Status Update</a>, <a href="https://16bpp.net/blog/tag/typescript">TypeScript</a></div></div>
+</div>
+
+
+
+
+          
+            <div class="content-top-bottom-section"><div class="row justify-content-between pagination-section">
+  <div class="col-sm-4">
+    
+  </div>
+
+  <div class="col-sm-4 text-end">
+    
+      <a href="https://16bpp.net/blog/page/2">
+        <div class="pagination-button">
+          <div class="float-end">
+            <img alt="" src="https://storage.googleapis.com/sixteenbpp/images/icons/right_arrow.svg" width="20" height="20" style="margin-left: 1em;">
+          </div>
+
+          <div style="margin-right: 2.5em;">Page 2</div>
+        </div>
+      </a>
+    
+  </div>
+</div>
+</div>
+          
+        </article>
+      </div>
+
+    </div><!-- .row -->
+
+    <div class="row justify-content-end">
+      <div class="col-lg-9 text-center">
+
+        <footer class="footer">
+          © 16BPP.net – Made using
+<a href="https://www.djangoproject.com/"><img class="footer-django-logo" src="https://storage.googleapis.com/sixteenbpp/images/django_logo.svg" alt="django" width="44" height="15"></a> &amp; love.
+
+
+          <div class="back-to-top-box float-end">
+            <a href="#top"><img alt="Back to Top of Page" src="https://storage.googleapis.com/sixteenbpp/images/icons/up_arrow.svg" width="20" height="20" style="margin-top: 0.5em;"></a>
+          </div>
+        </footer>
+
+      </div>
+    </div><!-- .row -->
+
+  </div><!-- .container -->
+
+
+  <div id="privacy-notice">
+    This site uses cookies.<br>
+<button onclick="location.href='/page/privacy';">Privacy</button>
+<button onclick="privacy_ok();">OK</button>
+
+  </div>
+  <script>maybe_show_privacy_notice();</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
